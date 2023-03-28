@@ -32,10 +32,10 @@ se llama la función de abajo pasando como parámetro qué botón es
             case 1: //Cambio de estados y actualización de sprites
                 if(!B1_State){
                     B1_State = true;
-                    B.sprite = test;
+                    //B.sprite = test;
                 }else if(B1_State){
                     B1_State = false;
-                    B.sprite = prueba;
+                    //B.sprite = prueba;
                 }
                 break;
             case 2:
