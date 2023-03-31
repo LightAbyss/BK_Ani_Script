@@ -1,1 +1,1 @@
-Version actual del paquete: V0_1_1
+Version actual del paquete: V0_2

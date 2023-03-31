@@ -11,7 +11,7 @@ public class PanelAction : MonoBehaviour{
     bool B1_State = false,B2_State = false,B3_State = false,B4_State = false,B5_State = false;
     string ind,ser,par;
     //Declaracion de sprites para imágenes
-    public Sprite test, prueba;
+    public Sprite push, npush;
 
     // Start is called before the first frame update
     void Start(){
@@ -32,40 +32,48 @@ se llama la función de abajo pasando como parámetro qué botón es
             case 1: //Cambio de estados y actualización de sprites
                 if(!B1_State){
                     B1_State = true;
-                    //B.sprite = test;
+                    B.sprite = push;
                 }else if(B1_State){
                     B1_State = false;
-                    //B.sprite = prueba;
+                    B.sprite = npush;
                 }
                 break;
             case 2:
                 if(!B2_State){
                     B2_State = true;
+                    B.sprite = push;
                 }else if(B2_State){
                     B2_State = false;
+                    B.sprite = npush;
                 }
                 config();
                 break;
             case 3:
                 if(!B3_State){
                     B3_State = true;
+                    B.sprite = push;
                 }else if(B3_State){
                     B3_State = false;
+                    B.sprite = npush;
                 }
                 config();
                 break;
             case 4:
                 if(!B4_State){
                     B4_State = true;
+                    B.sprite = push;
                 }else if(B4_State){
                     B4_State = false;
+                    B.sprite = npush;
                 }
                 break;
             case 5:
                 if(!B5_State){
                     B5_State = true;
+                    B.sprite = push;
                 }else if(B5_State){
                     B5_State = false;
+                    B.sprite = npush;
                 }
                 break;
         }
