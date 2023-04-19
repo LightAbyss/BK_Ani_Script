@@ -20,7 +20,7 @@ public class SpriteSW : MonoBehaviour{
 
     public IEnumerator delay(){
         yield return new WaitForSeconds(2);
-        escena.CambioScene("Frontal");
+        escena.CambioScene("Ayuda");
     }
 
 }
